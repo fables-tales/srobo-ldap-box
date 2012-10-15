@@ -1,0 +1,3 @@
+dn: o=sr
+objectClass: organization
+o: SR
