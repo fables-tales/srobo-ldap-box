@@ -8,6 +8,7 @@ Vagrant::Config.run do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "oneiric"
+  config.vm.box_url = "http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box"
   config.vm.forward_port 4567, 4567
 
   # The url from where the 'config.vm.box' box will be fetched if it
