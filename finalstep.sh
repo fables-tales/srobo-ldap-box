@@ -93,6 +93,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 cd test
+sleep 1
 ./all_tests.sh
 
 echo "---------------------------------------------"
