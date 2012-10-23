@@ -92,11 +92,11 @@ virtualenv --distribute venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-cd test
-sleep 1
-./all_tests.sh
+sudo apt-get -y install python-dev libsqlite3-dev sqlite3
 
-sudo apt-get -y install statsd python-dev libsqlite3-dev
+sleep 1
+make
+
 
 echo "---------------------------------------------"
 echo "now run these commands:"
