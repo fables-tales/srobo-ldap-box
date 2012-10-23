@@ -96,6 +96,8 @@ cd test
 sleep 1
 ./all_tests.sh
 
+sudo apt-get -y install statsd python-dev libsqlite3-dev
+
 echo "---------------------------------------------"
 echo "now run these commands:"
 echo "cd ~/nemesis"
